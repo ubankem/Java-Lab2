@@ -15,6 +15,8 @@ public class Lab2_5 {
             double amount = principle * Math.pow(1.0 + rate, year);
             System.out.printf("%d \t%.2f\n", year, amount);
         }
+        
         System.out.println("\n");
+        input.close();
     }
 }

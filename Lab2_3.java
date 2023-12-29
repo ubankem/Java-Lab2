@@ -5,7 +5,7 @@ public class Lab2_3 {
         Scanner input = new Scanner(System.in);
         int pass = 0;
         int fail = 0;
-        int number_of_entries = 0;
+        // int number_of_entries = 0;
         boolean continueEntering = true;
         while(continueEntering){
             System.out.println("Enter result(1 = Pass, 2 = Fail, Other value to Exit)");
@@ -24,13 +24,14 @@ public class Lab2_3 {
         }
         System.out.printf("Passes: %d Fails: %d\n", pass, fail);
        
-        double totalEntry = pass + fail;
-        double halfEntries = number_of_entries/2;
+        // double totalEntry = pass + fail;
+        // double halfEntries = number_of_entries/2;
         if (pass > fail){
             System.out.println("Bonus to instructor: Half of the students passed");
         } else{
             System.out.println("Half of the students failed");
         }
+        input.close();
         
         
     }

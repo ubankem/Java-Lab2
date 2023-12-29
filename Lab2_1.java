@@ -14,7 +14,7 @@ public class Lab2_1 {
             System.out.println("Number1 is not equal to Number2");
         }
         if (number1 < number2){
-            System.out.println("Number1 is smaller than Number2");
+            System.out.println("Number1 is smaller than Number2"); // h
         }
         if (number1 > number2){
             System.out.println("Number1 is greater than Number2");

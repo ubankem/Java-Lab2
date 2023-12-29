@@ -7,7 +7,7 @@ public class Lab2_4 {
         System.out.println("\nYear \tAmount");
         for (int year = 1; year <= years; year++){
             double amount = principle * Math.pow(1.0 + rate, year);
-            System.out.printf("%d \t%.2f\n", year, amount);
+            System.out.printf("%d \t%.2f\n", year, amount); 
         }
         System.out.println("\n");
     }

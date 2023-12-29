@@ -22,6 +22,7 @@ public class Lab2_2 {
           
         }
         System.out.printf("Passes: %d Fails: %d\n", pass, fail);
+        input.close();
 
     }
 }
